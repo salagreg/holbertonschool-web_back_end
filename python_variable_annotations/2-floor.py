@@ -4,5 +4,5 @@
 
 
 def floor(n: float) -> int:
-    """Retourne la partie entière inférieure d'un nombre flottant"""
-    return int(n // 1)
+		"""Retourne la partie entière inférieure d'un nombre flottant"""
+		return int(n // 1)
