@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """ Module qui contient une fonction pour obtenir
         la partie entière inférieure d'un nombre flottant """
 

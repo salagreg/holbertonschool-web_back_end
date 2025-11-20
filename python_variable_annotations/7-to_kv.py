@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Module qui contient la fonction to_kv et qui retourne un tuple."""
 
 

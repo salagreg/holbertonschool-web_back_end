@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Module qui renvoie la somme d'une liste de flottants."""
 
 

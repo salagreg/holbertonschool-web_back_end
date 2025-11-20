@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Module qui prend un flottant comme argument
         et retourne sa représentation en chaîne de caractères."""
 
