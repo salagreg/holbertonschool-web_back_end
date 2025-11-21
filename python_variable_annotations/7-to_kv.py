@@ -4,6 +4,8 @@
 from typing import Tuple
 
 
-def to_kv(k: str, v: int | float) -> Tuple[str, int | float]:
-    """Retourne un tuple contenant deux arguments."""
-    return (k, v)
+from typing import Tuple, Union
+
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    """Retourne un tuple avec k et le carré de v en float."""
+    return (k, float(v ** 2))
