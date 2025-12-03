@@ -1,0 +1,5 @@
+// Ajoute un nouvel attribut à un document dans une collection
+db.school.update(
+  { name: "Holberton school" }, // Critère de sélection du document
+  { adress: "972 Mission street" } // Ajout de l'attribut 'age' avec la valeur 25
+);
