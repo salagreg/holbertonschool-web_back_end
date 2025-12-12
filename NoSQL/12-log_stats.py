@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from pymongo import MongoClient
 
-client = MongoClient()
+client = MongoClient(host="localhost", port=27017)
 db = client.logs
 collection = db.nginx
 
